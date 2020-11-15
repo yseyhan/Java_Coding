@@ -2,6 +2,7 @@ package day04_MyVariablesContinues;
 
 public class CurrencyCalculator {
     public static void main(String[] args) {
+        //I will create a better one with a UI and real-time updates but step-by-step
         double dollar= 1;
         double lira = dollar / 0.13;
         double euro = dollar / 1.16;
