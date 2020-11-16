@@ -52,8 +52,8 @@ public class ShortHandOperators {
 
         System.out.println(y2);
 
-        String name = "Cybertek";
-        name += " School" ;
+        String name = "Johns";
+        name += " Hopkins" ;
         // name = name +" School";
 
         System.out.println(name);
