@@ -44,7 +44,7 @@ String domain= email.substring(email.indexOf("@")+1, email.length()-4);
 
 
 
-
+scan.close();
 
 
 
