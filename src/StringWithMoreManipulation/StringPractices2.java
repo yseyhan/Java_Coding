@@ -30,22 +30,32 @@ public class StringPractices2 {
                     System.out.println("price 120$");
                 break;
 
+            case "macbook":
+                System.out.println("Enter your model");
+                String macbook=scan.nextLine();
+                switch (macbook){
+                    case "macbookpro":
+                        System.out.println("price is 300$");
+                        break;
+                    case "macbookair":
+                        System.out.println("price is 3003$");
+                        break;
+                    case "mac":
+                        System.out.println("Price is 200$");
+                        break;
+                    default:
+                        System.err.println("invalid");
+
+                }
+                break;
+            default:
+                System.err.println("invalid entery");
 
 
 
         }
 
-
-
-
-
-
-
-
-
-
-
-
+        scan.close();
 
 
 
